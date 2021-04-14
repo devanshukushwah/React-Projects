@@ -1,0 +1,22 @@
+.peoples {
+  margin: 10px 0;
+  display: grid;
+  gap: 10px;
+  /* max-height: 200px; */
+  /* overflow: auto; */
+}
+.people {
+  padding: 6px;
+  display: flex;
+  box-sizing: border-box;
+  background: #fff;
+  /* border: 1px solid rgb(150, 140, 140); */
+}
+.peoples img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.people div {
+  margin-left: 10px;
+}
