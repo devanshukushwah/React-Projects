@@ -1,0 +1,14 @@
+.container {
+  margin: 5% 10%;
+  max-width: 500px;
+}
+/* .container article {
+  text-align: center;
+} */
+.container .title h1 {
+  text-align: center;
+
+  border-bottom: 2px solid rgb(134, 135, 130);
+  margin-bottom: 10px;
+  /* width: fit-content; */
+}
