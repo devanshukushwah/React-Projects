@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  max-width: 100vw;
+}
+.title {
+  text-align: center;
+}
+.title h3 {
+  margin-top: 1rem;
+}
+.title .line {
+  margin: 0 auto;
+  width: 100px;
+  height: 2px;
+  background: chocolate;
+}
