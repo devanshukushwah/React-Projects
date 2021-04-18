@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.loading {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.title {
+  margin: 10% 0 10px 0;
+  text-align: center;
+}
+.underline {
+  margin: 0 auto;
+  height: 2px;
+  border-radius: 2px;
+  width: 100px;
+  background-color: #b1b1b1;
+}
+
+.job-info {
+  margin: 0 5%;
+}
+.job-info h3 {
+  color: #131313;
+}
+
+.job-info h4 {
+  margin: 5px 0px;
+  border: none;
+  background: #b1b1b1;
+  max-width: fit-content;
+  border-radius: 5px;
+  padding: 4px 7px;
+  color: #131313;
+  font-size: 14px;
+  color: white;
+}
+.job-info h6 {
+  color: rgb(102, 102, 102);
+}
+
+.job-duty {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.job-duty .title {
+  width: 10%;
+}
+.job-duty p {
+  width: 95%;
+  color: rgb(58, 55, 49);
+}
+
+.btn-container {
+  box-sizing: border-box;
+  display: flex;
+  gap: 10px;
+  margin: 5% 5%;
+}
+
+.job-btn {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: medium;
+  padding: 0;
+}
+.job-btn:hover {
+  color: rgb(126, 118, 107);
+  border-bottom: 2px solid rgb(147, 120, 172);
+}
+.active {
+  color: rgb(126, 118, 107);
+  border-bottom: 2px solid rgb(147, 120, 172);
+}
