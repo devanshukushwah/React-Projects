@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.section-center {
+  margin-top: 5vh;
+  text-align: center;
+}
+#amount {
+  width: 50px;
+  margin: 0 5px;
+  padding: 2px 5px;
+}
+
+#submit {
+  padding: 2px 5px;
+  font-weight: bold;
+  color: white;
+  background: brown;
+  border: 2px solid black;
+}
+
+#submit:active {
+  transform: scale(0.95);
+}
+
+.title {
+  user-select: none;
+  margin: 5vh 0;
+}
+
+.lorem-text {
+  font-size: 15px;
+  margin: 2vh 5vw;
+  display: grid;
+  gap: 2vh;
+  user-select: all;
+}
+.lorem-text p {
+  user-select: all;
+  color: rgb(56, 56, 56);
+}
