@@ -1,0 +1,119 @@
+main {
+  user-select: none;
+
+  margin: 20vh 10vw 0;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  background: #fff;
+}
+main center {
+  margin: 5px 0;
+}
+.clear-btn {
+  display: flex;
+  margin: 0 auto;
+  color: rgb(138, 138, 201);
+  font-size: 18px;
+  background: none;
+  border: none;
+}
+.clear-btn:hover {
+  color: blueviolet;
+}
+.clear-btn:active {
+  transform: scale(0.95);
+}
+
+.grocery-form {
+  display: flex;
+  padding: 0 15px;
+}
+.grocery-form input {
+  width: 80%;
+  padding: 0 5px;
+  border: 1px solid rgb(84, 82, 82);
+  border-radius: 4px;
+  min-height: 25px;
+}
+.grocery-form button {
+  margin-left: 5px;
+  width: 20%;
+  padding: 2px 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  background: rgb(134, 155, 76);
+}
+.grocery-form button:hover {
+  transition: 00.51s;
+  background: tomato;
+}
+
+.grocery-container {
+  margin-top: 15px;
+}
+
+/* css for alert */
+
+.alert-container {
+  /* position: absolute; */
+  text-transform: uppercase;
+  padding: 5px;
+  /* background: chocolate; */
+  width: max-content;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.alert-success {
+  background: rgb(209, 148, 104);
+  color: white;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+.alert-error {
+  background: rgb(206, 43, 43);
+  color: whitesmoke;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+/* css for list items */
+
+article {
+  padding: 0 20px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  font-size: 13px;
+}
+article:hover {
+  background: #efefef;
+}
+
+.btn-container button {
+  border: none;
+  background: none;
+}
+.edit-btn {
+  color: rgb(199, 124, 71);
+}
+.edit-btn:hover {
+  color: rgb(228, 122, 47);
+}
+.edit-btn:active,
+.trash-btn:active {
+  transform: scale(0.95);
+}
+.trash-btn {
+  color: rgb(216, 80, 80);
+}
+.trash-btn:hover {
+  color: rgb(213, 45, 45);
+}
